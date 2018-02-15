@@ -45,7 +45,7 @@ function custom_edd_popup( $atts ) {
               <h5 class="modal-title" id="exampleModalLabel">Start now</h5><span class="button" data-dismiss="modal" aria-label="Close">X</span>
             </div>
             <div class="modal-body">
-             <form action="https://creativeg.gr/checkout" method="get">
+             <form action="'.get_option( 'siteurl' ).'" method="get">
 	  			<div class="form-group">
 	  				<input type="text" name="email" id="email" class="form-control">
 	  				 <input type="hidden" name="edd_action" value="add_to_cart">
