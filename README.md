@@ -6,7 +6,7 @@ To make it happen, use the following shortcode
 
 [custom-edd-popup txt="Buy Now" class="pricing__button-full" downloadid="7947" priceid="" productname="Membership"]
 
-Where
+Where<br />
 txt = The text of your Button <br />
 class = A class for your Button<br />
 downloadid = The ID of your product<br />
